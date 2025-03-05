@@ -1,0 +1,93 @@
+### Gradle (백엔드)
+.gradle
+build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### 공통적으로 제외할 파일 및 폴더
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+### 스프링 부트 (백엔드)
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.h2.db
+*.sqlite
+!gradle/wrapper/gradle-wrapper.jar
+
+### 플러터 (프론트엔드)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+generated_plugin_registrant.dart
+
+### iOS (플러터)
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.mode1v3
+*.pbxuser
+xcuserdata/
+*.xcworkspace
+DerivedData/
+*.ipa
+
+### Android (플러터)
+android/.gradle/
+android/app/build/
+*.keystore
+
+### 캐시와 임시 파일
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.old
+*.orig
+
+### 테스트 결과
+test-output/
+*.xml
+
+### 환경 변수 및 설정 파일
+.env
+*.env
