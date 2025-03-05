@@ -1,5 +1,5 @@
 ### Gradle (백엔드)
-.gradle
+*.gradle
 build/
 
 ### STS ###
@@ -47,7 +47,7 @@ Thumbs.db
 *.db
 *.h2.db
 *.sqlite
-!gradle/wrapper/gradle-wrapper.jar
+!/cafe-order-backend/gradle/wrapper/gradle-wrapper.jar
 
 ### 플러터 (프론트엔드)
 .dart_tool/
